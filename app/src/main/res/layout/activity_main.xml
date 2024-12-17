@@ -2,9 +2,13 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#8BC34A"
+    android:background="@drawable/bg"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:background="@drawable/baseline_local_movies_24" />
     <TextView
         android:text="Movie Booking"
         android:textAlignment="center"
