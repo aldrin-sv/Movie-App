@@ -32,6 +32,13 @@ public class DashActivity extends AppCompatActivity {
                 startActivity(obj2);
             }
         });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent obj3=new Intent(getApplicationContext(), ViewMovieActivity.class);
+                startActivity(obj3);
+            }
+        });
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
